@@ -28,7 +28,6 @@ ubuntu() {
     printf "\E[31mPlesk kurulumu baslatiliyor\E[0m\n"
     sleep 5
     sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O – https://autoinstall.plesk.com/one-click-installer)
-    printf "\E[31mPlesk kurulumu basariyla tamamlandi\E[0m\n"
 }
 
 printf "\E[31mBu bash scripti burakurer.com tarafindan yazilmistir\E[0m\n"
