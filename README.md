@@ -1,0 +1,1 @@
+# plesk-one-click-installer
