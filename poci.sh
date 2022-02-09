@@ -10,6 +10,7 @@ centos() {
     sleep 5
     yum upgrade -y
     yum update -y
+    yum install wget nano perl -y
     printf "\E[31mSistem guncellemeleri tamamlandi\E[0m\n"
     sleep 5
     printf "\E[31mPlesk kurulumu baslatiliyor\E[0m\n"
