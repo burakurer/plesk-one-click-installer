@@ -1,7 +1,3 @@
 # Plesk Tek Tıkla Kurulum
 
-[1] chmod +x poci.sh
-
-[2] sudo ./poci.sh
-
-[3] İşletim sistemini seçin ve kurulum başlasın
+<b><code>wget https://raw.githubusercontent.com/burakurer/plesk-one-click-installer/master/poci.sh && chmod +x poci.sh && ./poci.sh</code></b>
